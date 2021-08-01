@@ -51,7 +51,7 @@ public class OrderController {
     }
 
     public String fallback(Integer oid){
-        return "idea test熔断发生了,请您自保吧---order发送";
+        return "idea test3熔断发生了,请您自保吧---order发送";
     }
 
 }
