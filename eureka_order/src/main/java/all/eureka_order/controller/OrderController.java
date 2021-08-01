@@ -49,6 +49,7 @@ public class OrderController {
         String str = iUserClient.testQuery(uid);
         System.out.println("master test~~~~");
         System.out.println("hotFix test~");
+        System.out.println("push 2077");
         return "Version: 1 OpenFeign订单里调用的:"+str;
     }
 
