@@ -47,6 +47,7 @@ public class OrderController {
     })*/
     public String feignQuery(@PathVariable Integer uid){
         String str = iUserClient.testQuery(uid);
+        System.out.println("master test~~~~");
         return "Version: 1 OpenFeign订单里调用的:"+str;
     }
 
