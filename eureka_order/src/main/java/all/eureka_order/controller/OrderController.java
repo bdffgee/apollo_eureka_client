@@ -50,6 +50,8 @@ public class OrderController {
         System.out.println("master test~~~~");
         System.out.println("hotFix test~");
         System.out.println("push 2077");
+        System.out.println("Github test");
+        
         return "Version: 1 OpenFeign订单里调用的:"+str;
     }
 
