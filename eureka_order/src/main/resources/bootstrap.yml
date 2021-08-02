@@ -1,0 +1,15 @@
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka,http://127.0.0.1:8762/eureka
+spring:
+  application:
+    name: orderService  #这里,不再是配置中心的名字了,而是spring config里面的文件的名字
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: baby-config
+      profile: dev
+      label: release
