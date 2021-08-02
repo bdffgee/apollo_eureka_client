@@ -12,4 +12,4 @@ spring:
         enabled: true
         service-id: baby-config
       profile: dev
-      label: release
+#      label: release
